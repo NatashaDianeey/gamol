@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* ==========================================================================
+   Author's custom LAYOUT
+   ========================================================================== */
+/* Diseño tableta: de 481 px a 768 px. Hereda estilos de: Diseño móvil. */
+/*mediaquery desktop 2*/
+/*mediaquery desktop 2*/
+/*mediaquery desktop 2*/
+/*mediaquery desktop 2*/
+
+.back-white-icons{
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+}
+.buscandoTalento{
+	color:#333;
+	font-weight: 200;
+    font-size: 2.5em;
+    margin-bottom: 85px;
+}
+.contBackgSumate{
+	width: 100%;
+    padding: 5% 10%;
+}
+.back-Gray{
+	background: rgba(245, 245, 245, 0.5);
+	padding: 0% 20%;
+}
+.icon-1{
+	margin: 100px 0px 50px 0px;
+	width:60%;
+	height: auto;
+}
+.boxIconsSumate {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 5px #88888880;
+}
+.boxIconsSumate:hover {
+    background: rgba(22, 40, 59, 0.39);
+    box-shadow: 10px 10px 5px #88888880;
+}
+.encabezadosEquipoSumate {
+	color: #000;
+	font-size: 1.8em;
+    letter-spacing: 2px;
+    font-weight: 400;
+	margin-bottom: 49px;
+}
+
+
+@media (max-width: 768px) {
+	.buscandoTalento {
+	    font-size:  2.5em;
+	    margin-bottom: 35px;
+	}
+	.encabezadosEquipoSumate {
+	    font-size: 2.4em;
+	    letter-spacing: 0px;
+	    margin-bottom: 49px;
+	}
+	.icon-1 {
+	    margin: 70px 0px 50px 0px;
+	}
+}
+@media (max-width: 414px) {
+	.buscandoTalento {
+	    font-size: 1.3em;
+	    margin-bottom: 35px;
+	}
+	.encabezadosEquipoSumate {
+	    font-size: 1.2em;
+	    letter-spacing: 0px;
+	    margin-bottom: 29px;
+	}
+	.icon-1 {
+	    margin: 30px 0px 20px 0px;
+	}
+}
+@media (max-width: 360px) {
+	.buscandoTalento {
+	    font-size: 1.3em;
+	    margin-bottom: 35px;
+	}
+	.encabezadosEquipoSumate {
+	    font-size: 1.2em;
+	    letter-spacing: 0px;
+	    margin-bottom: 29px;
+	}
+	.icon-1 {
+	    margin: 30px 0px 20px 0px;
+	}
+}
+@media (max-width: 320px) {
+
+	.buscandoTalento {
+	    font-size: 1.1em;
+	    margin-bottom: 35px;
+	}
+	.encabezadosEquipoSumate {
+	    font-size: 1em;
+	    letter-spacing: 0px;
+	    font-weight: 400;
+		margin-bottom: 35px;
+	}
+	.icon-1 {
+	    margin: 40px 0px 20px 0px;
+	    width: 50%;
+	    height: auto;
+	}
+}
