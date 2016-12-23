@@ -44,7 +44,7 @@ header.smaller {
 .icon {
 	width: 60%;
 	height: auto;
-	margin: 10px 0px 0px 120px;
+	margin: 6px 0px 0px 120px;
 	z-index: 1000px;
 	background: url("img/slider/gamol.png");
 	background-repeat: no-repeat;
@@ -88,8 +88,8 @@ li a:hover {
 }
 
 .icons {
-	margin-top: 8%;
-	font-size: 1.6em !important;
+	margin-top: 6%;
+	font-size: 1.9em !important;
 	color: #ffffff;
 }
 
@@ -624,39 +624,6 @@ a:focus, a:hover {
 }
 
 @media (max-width: 320px){
-
-	
-	
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-/*
-
-
-    .icon-list a span {
-    font-size: 12px;
-}
-
-a p {
-    font-size: 9px;
-}
-
-
-
-*/
-
-
 
 
 
