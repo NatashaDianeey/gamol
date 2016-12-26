@@ -8,23 +8,14 @@
 /*mediaquery desktop 2*/
 /*mediaquery desktop 2*/
 
-.iconsContact{
-	list-style: none;
-    display: inline;
-    text-decoration: none;
-}
-.container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-/* Background image&color- header contact*/
+/*SECTION 1*/
 .bckContact{
 	background-image: url("../img/bgs/gamolequipo.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	width: 100%;
-	height: 450px;
+	height: 350px;
 }
 
 .bckBlack{
@@ -34,28 +25,10 @@
 	padding-left: -15px;
 }
 
-.conecta {
-    font-size: 70px;
+.conecta h1{
     margin-left: -150px;
     color: #fff;
-	margin-top: -30px;
-}
-
-.contact{
-	color: #15293e;
-	font-size: 4em;
-	font-weight: 600;
-	padding: 70px 0px 0px 0px;
-}
-.lineaContact {
-    border: 1px solid #f37820;
-    width: 25%;
-}
-
-.sloganContact{
-	color: #15293e;
-	font-size: 1.3em;
-	letter-spacing: 2px;
+    font-weight:600;
 }
 
 /* Backg section*/
@@ -68,12 +41,31 @@
 	padding-bottom: 50px;
 }
 
-.backgroud-White{
-	background: rgba(255, 255, 255, 0.83);
-	width: 100%;
-	height: 280px;
+.backgroud-White {
+    background: rgba(250, 250, 250, 0.7);
+    width: 100%;
+    height: 230px;
 }
 
+.contact h2{
+	color: #15293e;
+	font-size: 4em;
+	font-weight: 600;
+	padding: 50px 0px 0px 0px;
+    text-align: center;
+}
+
+.lineaContact {
+    border: 1px solid #f37820;
+    width: 25%;
+}
+
+.sloganContact h6{
+    text-align: center;
+	color: #15293e;
+	font-size: 1.3em;
+	letter-spacing: 2px;
+}
 .box-white{
 	background-color: #fff;
 	margin: 50px 0px 0px 50px;
@@ -82,18 +74,12 @@
         box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
 }
 
-/* Form & text */
-.form-control{
-	padding: 0px;
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 /* FORMULARIO */
-
-.btn-enviar{
-    margin-left: 400px;
-    margin-top: -35px;
-
-}
 
 .form-control {
     display: block;
@@ -110,6 +96,7 @@
     border-top: 0px;
     border-right: 0px;
     box-shadow: inset 0 0px 0px rgba(55, 54, 54, 0.075);
+    padding: 0px;
 }
 .NoRobot,
 .avisoprivacidad{
@@ -145,20 +132,12 @@ select> .form-control{
 	background-color: #15293e;
 }
 
-/* box blue*/
+.btn-contact-enviar{
+    margin-left: 400px;
+    margin-top: -35px;
 
-.bkg-reds {
-    background-image: url("../img/bgs/bkg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 3% 0% 0% 4%;
-    width: 80px;
-    height: 80px;
-    color: #f37920;
-    border: 10px solid #fff;
-    font-size: 2em;
-	margin: -3% 0px 0px 24px;
 }
+/* box blue*/
 
 .box-blue {
     color: #fff;
@@ -173,15 +152,32 @@ select> .form-control{
 	margin: -90px -80px 30px -80px;
     padding: 0%;
 }
-.direc {
-    margin: 10px -0px 5px 10px;
-    font-size: 1.3em;
-    font-weight: 200;
+
+.bkg-reds {
+    background-image: url("../img/bgs/bkg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 0% 0% 4%;
+    width: 80px;
+    height: 80px;
+    color: #f37920;
+    border: 10px solid #fff;
+    font-size: 2em;
+	margin: -3% 0px 0px 24px;
+}
+.iconsContact{
+	list-style: none;
+    display: inline;
+    text-decoration: none;
 }
 
-.borde-circle{
-	border-radius: 50%;
-	color: #f37920;
+li a .bkg-reds{
+    font-size: 2em;
+}
+
+.direc p{
+    margin: 10px 0px 5px 5px;
+    font-weight: 200;
 }
 
 .no-mar {
@@ -193,261 +189,144 @@ select> .form-control{
 	padding-right: 0;
 	padding-left: 0;
 }
-
+@media (max-width: 1980px){
+	 .lineaContact {
+        width: 5%;
+    }
+}
 @media (max-width: 980px) {
-	.box-white {
+    .box-white {
 	    margin: 20px -5px;
-	    padding: 30px 30px;
+	    padding: 50px 50px;
     }
     .bkg-reds {
-	    padding: 3% 0% 0% 4%;
-	    width: 120px;
-	    height: 120px;
-	    border: 10px solid #fff;
-	    font-size: 2em;
-	    margin: -3% 0px 0px 45px;
+	    width: 100px;
+	    height: 100px;
+	    margin: -20px 0px 0px 60px;
 	}
-}
 
-@media (max-width: 800px) {
-	.box-white {
-	    margin: 20px -5px;
-	    padding: 30px 30px;
+   li a .bkg-reds {
+        font-size: 2em;
+    }
+     .lineaContact {
+        width: 10%;
     }
 }
-
-
-@media (max-width: 768px) {
-	.conecta {
-	    font-size: 70px;
-	    margin-left: -120px;
-	    color: #fff;
-	    margin-top: -25px;
-	}
+@media (max-width: 800px){
 	.box-white {
 	    margin: 20px -5px;
-	    padding: 30px 30px;
+	    padding: 50px 50px;
     }
-    .btn-enviar {
+    
+    .btn-contact-enviar {
 	    margin-top: -6%;
 	    margin-left: 60%;
 	    padding: 12px 35px;
 	}
-	.datosRe{
-		margin-top: 5px;
-		font-size: 80%;
-	}
-	.box-blue {
+    .box-blue {
 	    width: 100%;
 	    height: auto;
 		margin: 40px 0px;
 	}
-	.bkg-reds {
-	    width: 125px;
-	    height: 125px;
-	    margin: -20px 25px 7px;
-	    border: 10px solid #fff;
-	}
-	.direc {
-    	font-size: 1.8em;
+    .bkg-reds {
+        width: 95px;
+        height: 95px;
+        margin: -20px 0px 0px 60px;
+        border: 10px solid #fff;
     }
-
+   li a .bkg-reds {
+        font-size: 2em;
+    }
+    .direc p {
+        margin: 10px 50px 5px 35px;
+        font-size: 18px;
+    }
 }
-
+@media (max-width: 768px){
+}
 @media (max-width: 640px){
-	.bkg-reds {
+    .bckContact {
+	    background-position: center;
+	    background-size: inherit;
+	    height: 180px;
+	}
+	/*.bkg-reds {
 	    width: 85px;
 	    height: 85px;
 	    margin: 7px 14px;
 	    border: 6px solid #fff;
+	}*/
+     .conecta h1{
+	    margin-left: -60px;
+        margin-top: -40px;
+        font-size: 1.8em;
 	}
-}
-
-}
-@media (max-width: 414px) {
-	.bckContact {
-	    background-position: center;
-	    background-size: inherit;
-	    height: 180px;
+    .backgroud-White {
+        height: 100px;
+    }
+    .contact h2{
+	    font-size: 1.7em;
+	    padding: 0px;
 	}
-	.conecta {
-	    font-size: 2.1em;
-	    margin-left: -59px;
-	    margin-top: -170px;
-	}
-	.contact {
-	    font-size: 2em;
-	    padding: 10px 0px 0px 0px;
-	}
-	.sloganContact {
+    .lineaContact {
+        width: 25%;
+        margin-bottom: 15px;
+        margin-top: 0px;
+    }
+	.sloganContact h6{
 	    font-size: 0.8em;
 	    letter-spacing: 1px;
 	    margin: 0px -45px 0px -45px;
 	}
-	.box-white {
-	    margin: 20px -5px;
-	    padding: 30px 30px;
-    }
-    .btn-enviar {
-	    margin-top: -65px;
-	    margin-left: 60%;
-	    padding: 12px 35px;
-	}
-	.datosRe{
-		margin-top: 5px;
-		font-size: 80%;
-	}
-	.box-blue {
-	    width: 100%;
-	    height: auto;
-		margin: 40px 0px;
-	}
-	.bkg-reds {
-	    width: 65px;
-	    height: 65px;
-	    margin: 7px 14px;
-	    border: 6px solid #fff;
-	}
-	.direc {
-	    font-size: 1.2em;
-	    font-weight: 200;
-	    margin: 0px -5px 5px -5px;
-	}
-
-}
-@media (max-width: 375px) {
-	.conecta {
-    	font-size: 2.4em;
-    }
-	.bkg-reds {
-	    width: 65px;
-	    height: 65px;
-	    margin: 7px 9px;
-	    border: 6px solid #fff;
-	}
-	.direc {
-	    font-size: 1em;
-	    font-weight: 200;
-	    margin: 0px -5px 5px -5px;
-
-	}
-}
-
-@media (max-width: 360px) {
-	.bckContact {
-	    background-position: center;
-	    background-size: inherit;
-	    height: 180px;
-	}
-	.conecta {
-	    font-size: 2.1em;
-	    margin-left: -59px;
-	    margin-top: -170px;
-	}
-	.contact {
-	    font-size: 2em;
-	    padding: 10px 0px 0px 0px;
-	}
-	.sloganContact {
-	    font-size: 0.8em;
-	    letter-spacing: 1px;
-	    margin: 0px -45px 0px -45px;
-	}
-	.box-white {
-	    margin: 20px -5px;
-	    padding: 30px 30px;
-    }
-    .btn-enviar {
-	    margin-top: -45px;
-	    margin-left: 60%;
-	    padding: 12px 35px;
-	}
-	.datosRe{
-		margin-top: 5px;
-		font-size: 80%;
-	}
-	.box-blue {
-	    width: 100%;
-	    height: auto;
-		margin: 40px 0px;
-	}
-	.bkg-reds {
-	    width: 65px;
-	    height: 65px;
-	    margin: 7px;
-	    border: 6px solid #fff;
-	}
-	.direc {
-	    font-size: 0.9em;
-	    font-weight: 200;
-	}
-}
-
-
-@media (max-width: 320px) {
-
-	/* seccion Contacto*/
-	.videoPrin {
-	    height: 570px;
-	}
-	.bckContact {
-	    background-position: center;
-	    background-size: inherit;
-	    height: 180px;
-	}
-	.bckBlack {
-    	height: 180px;
-    }
-    .conecta {
-	    font-size: 2.1em;
-	    margin-left: -59px;
-	    margin-top: -170px;
-	}
-	.contact {
-	    font-size: 2em;
-	    padding: 10px 0px 0px 0px;
-	}
-	.sloganContact {
-	    font-size: 0.8em;
-	    letter-spacing: 1px;
-	    margin: 0px -45px 0px -45px;
-	}
-    /* box formulario */
     .box-white {
 	    margin: 20px -5px;
 	    padding: 30px 30px;
     }
-	.btn-enviar {
-	    margin-top: -40px;
-	    margin-left: 150px;
+    .datosRe p{
+		margin-top: 5px;
+		font-size: 80%;
+	}
+    .btn-contact-enviar {
+	    margin-top: -45px;
+	    margin-left: 60%;
 	    padding: 12px 35px;
 	}
-	.form-control {
-    	height: 24px;
-	}
-	.boxCaptcha {
-	    padding: 10px 0px 5px 5px;
-	}
-	.datosRe{
-		margin-top: 5px;
-		font-size: 60%;
-	}
-	/* box blue */
-	.bkg-reds {
-	    width: 55px;
-	    height: 55px;
-	    border: 6px solid #fff;
-	}
-
-	.box-blue {
+    .box-blue {
 	    width: 100%;
 	    height: auto;
-	    margin: 15px 0px;
+		margin: 40px 0px;
 	}
-	.direc {
-	    margin: 0px -20px 5px -10px;
-	    font-size: 0.79em;
-	    font-weight: 200;
+	.bkg-reds {
+	   width: 55px;
+        height: 55px;
+        margin: 7px;
+	    border: 6px solid #fff;
 	}
+    .direc p {
+        margin: 0px -15px 10px -15px;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 28px;
+        letter-spacing: 0px;
+    }
+    li a .bkg-reds {
+        font-size: 1.5em;
+    }
+}
 
+@media (max-width: 360px){
+    .bkg-reds {
+        width: 55px;
+        height: 55px;
+        margin: 7px 12px;
+    }
+}
+
+@media (max-width: 320px){
+    .bkg-reds {
+	   width: 55px;
+        height: 55px;
+        margin: 7px;
+	    border: 6px solid #fff;
+	}
 }

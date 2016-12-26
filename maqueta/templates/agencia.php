@@ -1,12 +1,12 @@
 	<section>
-		<div class="container-fluid backgroundSumate">
-			<div class="row bckBlack">
-				<div class="col-xs-12 text-center">
-			        <div class="container">
-				        <div class="row">
-							<h2 class="piensoCreo-agencia">#PiensoCreoSoyDigital</h2>
-						</div>
-					</div>
+		<div class="container-fluid">
+            <div class="backgroundSumate">
+                <div class="row bckBlack">
+                    <div class="col-xs-12 text-center">
+                         <div class="contTransf piensoCreo-agencia">
+                            <h2>#PiensoCreoSoyDigital</h2>
+                        </div>
+                    </div>
 	        	</div>
 	        </div>
         </div>

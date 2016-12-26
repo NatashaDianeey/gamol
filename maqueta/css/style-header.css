@@ -505,6 +505,9 @@ a:focus, a:hover {
 }
 
 @media (max-width: 640px){
+    .navbar-brand{
+        width: 44%;
+    }
 	header.smaller {
 		height: 70px;
     }
@@ -564,9 +567,9 @@ a:focus, a:hover {
 		top: 10px;
 	}
 	.icons {
-		margin-top: 4%;
-	    font-size: 1.3em !important;
-	    padding: 0em 0em 0em 0em;
+        margin-top: 5%;
+        font-size: 1em !important;
+        padding: 0em 0em 0em 0em;
     }
     .botonMenuBars{
 		margin-right: 0px !important;

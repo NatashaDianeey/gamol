@@ -24,7 +24,8 @@
 	overflow: hidden;
 	position: relative;
 	padding: 0;
-	margin: 0; }
+	margin: 0; 
+}
 
 .videoPrin video {
 	position: absolute;
@@ -100,10 +101,13 @@
 
 /*unive*/
 
-.backRelative  {
+.backRelative {
 	width: 100%;
 	height: auto;
-	position: relative; 
+	overflow: hidden;
+	position: relative;
+	padding: 0;
+	margin: 0; 
 }
 .backRelative img {
 	position: absolute;
@@ -121,9 +125,10 @@
 .contTransf {
 	width: 100%;
     position: absolute;
-	top: 1100px;
-	
+	top: 130px;
+	z-index: 4;
 }
+
 
 /* SECTION 1*/
 
@@ -753,7 +758,7 @@ p{
 @media (max-width: 480px){
 	.pienso h1 {
 		margin-left: -10px;
-	    font-size: 2.2em;
+	    font-size: 1.7em;
     }
 	.estrategias h4 {
 	    font-size: 1.1em;
